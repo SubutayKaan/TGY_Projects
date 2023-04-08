@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC04C1B929E0761000797B94 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04C1B829E0761000797B94 /* OnboardingViewController.swift */; };
+		CC04C1BB29E0761D00797B94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC04C1BA29E0761D00797B94 /* Main.storyboard */; };
+		CC04C1BD29E0763000797B94 /* OnboardingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04C1BC29E0763000797B94 /* OnboardingCoordinator.swift */; };
+		CC04C1C029E07A6600797B94 /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04C1BF29E07A6600797B94 /* OnboardingCell.swift */; };
+		CC04C1C729E08CCD00797B94 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04C1C629E08CCD00797B94 /* UIView.swift */; };
+		CC04C1ED29E0A0DD00797B94 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04C1EC29E0A0DD00797B94 /* PrimaryButton.swift */; };
+		CC04C1F029E0A70800797B94 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04C1EF29E0A70800797B94 /* SelectionViewController.swift */; };
+		CC04C1F229E0A76100797B94 /* SelectionViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC04C1F129E0A76100797B94 /* SelectionViewController.storyboard */; };
+		CC04C1F429E0A76F00797B94 /* SelectionViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04C1F329E0A76F00797B94 /* SelectionViewCoordinator.swift */; };
+		CC04C1F629E0B55A00797B94 /* SelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04C1F529E0B55A00797B94 /* SelectionViewModel.swift */; };
+		CC04C1F929E0B6CF00797B94 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04C1F829E0B6CF00797B94 /* DateCell.swift */; };
+		CC04C1FB29E0B6EE00797B94 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04C1FA29E0B6EE00797B94 /* LocationCell.swift */; };
+		CC04C1FF29E0B97D00797B94 /* LocationCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04C1FE29E0B97D00797B94 /* LocationCellModel.swift */; };
+		CC04C20129E0C46D00797B94 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04C20029E0C46D00797B94 /* UIStoryboard.swift */; };
+		CC04C20329E0C5E900797B94 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC04C20229E0C5E900797B94 /* Constant.swift */; };
+		CC0A8BA829E0D50000587DB9 /* SelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0A8BA729E0D50000587DB9 /* SelectionTableViewController.swift */; };
+		CC20818B29DAFC2E00AEAAB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC20818A29DAFC2E00AEAAB3 /* AppDelegate.swift */; };
+		CC20819429DAFC2F00AEAAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC20819329DAFC2F00AEAAB3 /* Assets.xcassets */; };
+		CC2081B429DB381400AEAAB3 /* Bilet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2081B329DB381400AEAAB3 /* Bilet.swift */; };
+		CC2081B629DB38D800AEAAB3 /* Yolcu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2081B529DB38D800AEAAB3 /* Yolcu.swift */; };
+		CC2081BB29DB39C100AEAAB3 /* Tarih.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2081BA29DB39C100AEAAB3 /* Tarih.swift */; };
+		CC2081BD29DB3A4800AEAAB3 /* Saat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2081BC29DB3A4800AEAAB3 /* Saat.swift */; };
+		CCF8637129E0D99C00EB4719 /* SeatCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8637029E0D99C00EB4719 /* SeatCoordinator.swift */; };
+		CCF8637329E0DA0E00EB4719 /* SeatViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF8637229E0DA0E00EB4719 /* SeatViewController.storyboard */; };
+		CCF8637529E0DA4600EB4719 /* SeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8637429E0DA4600EB4719 /* SeatViewController.swift */; };
+		CCF8637729E0E38F00EB4719 /* MySeatConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8637629E0E38E00EB4719 /* MySeatConfig.swift */; };
+		CCF8637929E0E73600EB4719 /* SeatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8637829E0E73600EB4719 /* SeatViewModel.swift */; };
+		CCF8637E29E0FCCF00EB4719 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8637D29E0FCCF00EB4719 /* DetailViewController.swift */; };
+		CCF8638029E0FCF000EB4719 /* DetailViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF8637F29E0FCF000EB4719 /* DetailViewController.storyboard */; };
+		CCF8638429E0FE6100EB4719 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8638329E0FE6100EB4719 /* DetailViewModel.swift */; };
+		CCF8638629E1042700EB4719 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8638529E1042700EB4719 /* Date.swift */; };
+		CCF8638829E10BF500EB4719 /* DetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8638729E10BF500EB4719 /* DetailCoordinator.swift */; };
+		DC6DAC005BF3ACC84176C1E8 /* Pods_KaanGPT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F7D239ADE44E9A511A1B8D /* Pods_KaanGPT.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		489B3A622B2884040F8E5D54 /* Pods-KaanGPT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaanGPT.debug.xcconfig"; path = "Target Support Files/Pods-KaanGPT/Pods-KaanGPT.debug.xcconfig"; sourceTree = "<group>"; };
+		57D8C9E330011D473F2B1E3C /* Pods-KaanGPT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaanGPT.release.xcconfig"; path = "Target Support Files/Pods-KaanGPT/Pods-KaanGPT.release.xcconfig"; sourceTree = "<group>"; };
+		A5F7D239ADE44E9A511A1B8D /* Pods_KaanGPT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaanGPT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC04C1B829E0761000797B94 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		CC04C1BA29E0761D00797B94 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CC04C1BC29E0763000797B94 /* OnboardingCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordinator.swift; sourceTree = "<group>"; };
+		CC04C1BF29E07A6600797B94 /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
+		CC04C1C629E08CCD00797B94 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CC04C1EC29E0A0DD00797B94 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		CC04C1EF29E0A70800797B94 /* SelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		CC04C1F129E0A76100797B94 /* SelectionViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectionViewController.storyboard; sourceTree = "<group>"; };
+		CC04C1F329E0A76F00797B94 /* SelectionViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewCoordinator.swift; sourceTree = "<group>"; };
+		CC04C1F529E0B55A00797B94 /* SelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionViewModel.swift; sourceTree = "<group>"; };
+		CC04C1F829E0B6CF00797B94 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		CC04C1FA29E0B6EE00797B94 /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		CC04C1FE29E0B97D00797B94 /* LocationCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCellModel.swift; sourceTree = "<group>"; };
+		CC04C20029E0C46D00797B94 /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		CC04C20229E0C5E900797B94 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CC0A8BA729E0D50000587DB9 /* SelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTableViewController.swift; sourceTree = "<group>"; };
+		CC20818729DAFC2E00AEAAB3 /* KaanGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaanGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC20818A29DAFC2E00AEAAB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC20819329DAFC2F00AEAAB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC20819829DAFC2F00AEAAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC2081B329DB381400AEAAB3 /* Bilet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bilet.swift; sourceTree = "<group>"; };
+		CC2081B529DB38D800AEAAB3 /* Yolcu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yolcu.swift; sourceTree = "<group>"; };
+		CC2081BA29DB39C100AEAAB3 /* Tarih.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarih.swift; sourceTree = "<group>"; };
+		CC2081BC29DB3A4800AEAAB3 /* Saat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saat.swift; sourceTree = "<group>"; };
+		CCF8637029E0D99C00EB4719 /* SeatCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatCoordinator.swift; sourceTree = "<group>"; };
+		CCF8637229E0DA0E00EB4719 /* SeatViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SeatViewController.storyboard; sourceTree = "<group>"; };
+		CCF8637429E0DA4600EB4719 /* SeatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatViewController.swift; sourceTree = "<group>"; };
+		CCF8637629E0E38E00EB4719 /* MySeatConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySeatConfig.swift; sourceTree = "<group>"; };
+		CCF8637829E0E73600EB4719 /* SeatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatViewModel.swift; sourceTree = "<group>"; };
+		CCF8637D29E0FCCF00EB4719 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CCF8637F29E0FCF000EB4719 /* DetailViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DetailViewController.storyboard; sourceTree = "<group>"; };
+		CCF8638329E0FE6100EB4719 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		CCF8638529E1042700EB4719 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		CCF8638729E10BF500EB4719 /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC20818429DAFC2E00AEAAB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6DAC005BF3ACC84176C1E8 /* Pods_KaanGPT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2794BD71A4D2630B16C24219 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5F7D239ADE44E9A511A1B8D /* Pods_KaanGPT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC04C1B729E075FD00797B94 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CC04C1BE29E078B000797B94 /* Cell */,
+				CC04C1B829E0761000797B94 /* OnboardingViewController.swift */,
+				CC04C1BA29E0761D00797B94 /* Main.storyboard */,
+				CC04C1BC29E0763000797B94 /* OnboardingCoordinator.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		CC04C1BE29E078B000797B94 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC04C1BF29E07A6600797B94 /* OnboardingCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CC04C1C329E08C9200797B94 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CC04C1C629E08CCD00797B94 /* UIView.swift */,
+				CC04C1EC29E0A0DD00797B94 /* PrimaryButton.swift */,
+				CC04C20029E0C46D00797B94 /* UIStoryboard.swift */,
+				CCF8638529E1042700EB4719 /* Date.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CC04C1EE29E0A64B00797B94 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				CC04C1F129E0A76100797B94 /* SelectionViewController.storyboard */,
+				CC04C1EF29E0A70800797B94 /* SelectionViewController.swift */,
+				CC04C1F329E0A76F00797B94 /* SelectionViewCoordinator.swift */,
+				CC04C1F529E0B55A00797B94 /* SelectionViewModel.swift */,
+				CC04C1F729E0B6C500797B94 /* Cell */,
+				CC0A8BA729E0D50000587DB9 /* SelectionTableViewController.swift */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		CC04C1F729E0B6C500797B94 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC04C1F829E0B6CF00797B94 /* DateCell.swift */,
+				CC04C1FA29E0B6EE00797B94 /* LocationCell.swift */,
+				CC04C1FE29E0B97D00797B94 /* LocationCellModel.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CC20817E29DAFC2E00AEAAB3 = {
+			isa = PBXGroup;
+			children = (
+				CC20818929DAFC2E00AEAAB3 /* KaanGPT */,
+				CC20818829DAFC2E00AEAAB3 /* Products */,
+				D9E755FDE670283EE2459B31 /* Pods */,
+				2794BD71A4D2630B16C24219 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC20818829DAFC2E00AEAAB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC20818729DAFC2E00AEAAB3 /* KaanGPT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC20818929DAFC2E00AEAAB3 /* KaanGPT */ = {
+			isa = PBXGroup;
+			children = (
+				CCF8637C29E0FCBA00EB4719 /* DetailView */,
+				CCF8636F29E0D99300EB4719 /* Seat */,
+				CC20819829DAFC2F00AEAAB3 /* Info.plist */,
+				CC20818A29DAFC2E00AEAAB3 /* AppDelegate.swift */,
+				CC04C20229E0C5E900797B94 /* Constant.swift */,
+				CC20819329DAFC2F00AEAAB3 /* Assets.xcassets */,
+				CC04C1C329E08C9200797B94 /* Extensions */,
+				CC2081B229DB37F700AEAAB3 /* Models */,
+				CC04C1B729E075FD00797B94 /* Onboarding */,
+				CC04C1EE29E0A64B00797B94 /* Selection */,
+			);
+			path = KaanGPT;
+			sourceTree = "<group>";
+		};
+		CC2081B229DB37F700AEAAB3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC2081B329DB381400AEAAB3 /* Bilet.swift */,
+				CC2081B529DB38D800AEAAB3 /* Yolcu.swift */,
+				CC2081BA29DB39C100AEAAB3 /* Tarih.swift */,
+				CC2081BC29DB3A4800AEAAB3 /* Saat.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CCF8636F29E0D99300EB4719 /* Seat */ = {
+			isa = PBXGroup;
+			children = (
+				CCF8637029E0D99C00EB4719 /* SeatCoordinator.swift */,
+				CCF8637829E0E73600EB4719 /* SeatViewModel.swift */,
+				CCF8637229E0DA0E00EB4719 /* SeatViewController.storyboard */,
+				CCF8637429E0DA4600EB4719 /* SeatViewController.swift */,
+				CCF8637629E0E38E00EB4719 /* MySeatConfig.swift */,
+			);
+			path = Seat;
+			sourceTree = "<group>";
+		};
+		CCF8637C29E0FCBA00EB4719 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				CCF8637F29E0FCF000EB4719 /* DetailViewController.storyboard */,
+				CCF8638729E10BF500EB4719 /* DetailCoordinator.swift */,
+				CCF8637D29E0FCCF00EB4719 /* DetailViewController.swift */,
+				CCF8638329E0FE6100EB4719 /* DetailViewModel.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		D9E755FDE670283EE2459B31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				489B3A622B2884040F8E5D54 /* Pods-KaanGPT.debug.xcconfig */,
+				57D8C9E330011D473F2B1E3C /* Pods-KaanGPT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC20818629DAFC2E00AEAAB3 /* KaanGPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC20819B29DAFC2F00AEAAB3 /* Build configuration list for PBXNativeTarget "KaanGPT" */;
+			buildPhases = (
+				E054AE836F6A5BEC42BDD653 /* [CP] Check Pods Manifest.lock */,
+				CC20818329DAFC2E00AEAAB3 /* Sources */,
+				CC20818429DAFC2E00AEAAB3 /* Frameworks */,
+				CC20818529DAFC2E00AEAAB3 /* Resources */,
+				A2E884785DE48453B7266E9E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaanGPT;
+			productName = KaanGPT;
+			productReference = CC20818729DAFC2E00AEAAB3 /* KaanGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC20817F29DAFC2E00AEAAB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CC20818629DAFC2E00AEAAB3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CC20818229DAFC2E00AEAAB3 /* Build configuration list for PBXProject "KaanGPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC20817E29DAFC2E00AEAAB3;
+			productRefGroup = CC20818829DAFC2E00AEAAB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC20818629DAFC2E00AEAAB3 /* KaanGPT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC20818529DAFC2E00AEAAB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC04C1BB29E0761D00797B94 /* Main.storyboard in Resources */,
+				CCF8637329E0DA0E00EB4719 /* SeatViewController.storyboard in Resources */,
+				CC04C1F229E0A76100797B94 /* SelectionViewController.storyboard in Resources */,
+				CC20819429DAFC2F00AEAAB3 /* Assets.xcassets in Resources */,
+				CCF8638029E0FCF000EB4719 /* DetailViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2E884785DE48453B7266E9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KaanGPT/Pods-KaanGPT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KaanGPT/Pods-KaanGPT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KaanGPT/Pods-KaanGPT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E054AE836F6A5BEC42BDD653 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KaanGPT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC20818329DAFC2E00AEAAB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF8638629E1042700EB4719 /* Date.swift in Sources */,
+				CCF8638429E0FE6100EB4719 /* DetailViewModel.swift in Sources */,
+				CC04C1C029E07A6600797B94 /* OnboardingCell.swift in Sources */,
+				CC2081BD29DB3A4800AEAAB3 /* Saat.swift in Sources */,
+				CC2081B629DB38D800AEAAB3 /* Yolcu.swift in Sources */,
+				CC04C1F629E0B55A00797B94 /* SelectionViewModel.swift in Sources */,
+				CC04C20129E0C46D00797B94 /* UIStoryboard.swift in Sources */,
+				CC04C1FB29E0B6EE00797B94 /* LocationCell.swift in Sources */,
+				CC04C1F429E0A76F00797B94 /* SelectionViewCoordinator.swift in Sources */,
+				CC04C1BD29E0763000797B94 /* OnboardingCoordinator.swift in Sources */,
+				CCF8638829E10BF500EB4719 /* DetailCoordinator.swift in Sources */,
+				CC04C1F929E0B6CF00797B94 /* DateCell.swift in Sources */,
+				CC20818B29DAFC2E00AEAAB3 /* AppDelegate.swift in Sources */,
+				CC0A8BA829E0D50000587DB9 /* SelectionTableViewController.swift in Sources */,
+				CC2081B429DB381400AEAAB3 /* Bilet.swift in Sources */,
+				CCF8637929E0E73600EB4719 /* SeatViewModel.swift in Sources */,
+				CC04C1F029E0A70800797B94 /* SelectionViewController.swift in Sources */,
+				CCF8637529E0DA4600EB4719 /* SeatViewController.swift in Sources */,
+				CCF8637129E0D99C00EB4719 /* SeatCoordinator.swift in Sources */,
+				CC04C1B929E0761000797B94 /* OnboardingViewController.swift in Sources */,
+				CC04C1FF29E0B97D00797B94 /* LocationCellModel.swift in Sources */,
+				CC2081BB29DB39C100AEAAB3 /* Tarih.swift in Sources */,
+				CC04C20329E0C5E900797B94 /* Constant.swift in Sources */,
+				CC04C1ED29E0A0DD00797B94 /* PrimaryButton.swift in Sources */,
+				CCF8637729E0E38F00EB4719 /* MySeatConfig.swift in Sources */,
+				CC04C1C729E08CCD00797B94 /* UIView.swift in Sources */,
+				CCF8637E29E0FCCF00EB4719 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CC20819929DAFC2F00AEAAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC20819A29DAFC2F00AEAAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC20819C29DAFC2F00AEAAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489B3A622B2884040F8E5D54 /* Pods-KaanGPT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8G559VCN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KaanGPT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.KaanGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC20819D29DAFC2F00AEAAB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D8C9E330011D473F2B1E3C /* Pods-KaanGPT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M8G559VCN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KaanGPT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = self.KaanGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC20818229DAFC2E00AEAAB3 /* Build configuration list for PBXProject "KaanGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC20819929DAFC2F00AEAAB3 /* Debug */,
+				CC20819A29DAFC2F00AEAAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC20819B29DAFC2F00AEAAB3 /* Build configuration list for PBXNativeTarget "KaanGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC20819C29DAFC2F00AEAAB3 /* Debug */,
+				CC20819D29DAFC2F00AEAAB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC20817F29DAFC2E00AEAAB3 /* Project object */;
+}
